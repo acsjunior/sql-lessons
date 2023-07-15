@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sql-lessons"
+version = "0.1.0"
+description = ""
+authors = ["Antonio Júnior <juniorssz@gmail.com>"]
+readme = "README.md"
+packages = [{include = "sql_lessons"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ipykernel = "^6.24.0"
+ipython-sql = "^0.5.0"
+pandas = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
